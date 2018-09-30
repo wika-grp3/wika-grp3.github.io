@@ -1,0 +1,38 @@
+body{
+    font-weight: bolder;
+}
+div{
+    margin: auto;
+    display: block;
+    font-size: 20pt;
+}
+div ul li{
+    list-style-type: none;
+}
+div ul a li{
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+    color: #9afe2e;
+}
+div ul a li:hover{
+    transition: 1s;
+    transform: scale(1.2,1.2);
+}
+#home{
+    position: absolute; top: 250px; left: 240px;
+}
+#arts{
+    position: absolute; top: 250px; right: 245px;
+}
+#abt{
+    position: absolute; top: 350px; left: 180px;
+}
+#logs{
+    position: absolute; top: 350px; right: 175px;
+}
+#you{
+    position: absolute; top: 450px; left: 190px;
+}
+#ref{
+    position: absolute; top: 450px; right: 240px;
+}
