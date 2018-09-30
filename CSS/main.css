@@ -31,7 +31,8 @@ article{
     background-color: rgba(255,255,255,0.7);
 }
 aside{
-    background-color: rgba(225,225,255,0.7)
+    background-color: rgba(225,225,255,0.7);
+    color: darkgreen;
 }
 .lft{
     float: left;

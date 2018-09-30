@@ -33,7 +33,7 @@ article a{
 }
 #myCarousel{
     background: rgb(255,255,255);
-    opacity: 0.8;
+    opacity: 0.9;
     height: 100%;
 }
 .carousel-indicators{
@@ -65,7 +65,7 @@ article a{
     margin-left: 3%;
     text-align: justify;
     width: 95%;
-    color: #666600;
+    color: teal;
 }
 .indnews h3{
     font-weight: bold;
