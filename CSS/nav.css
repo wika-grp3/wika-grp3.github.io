@@ -1,0 +1,100 @@
+nav{
+    position: fixed; top:0px;
+    background-color: rgba(0,0,0,.9); 
+    border-radius: 0 0% 35px 0%;
+    width: 21%;
+    height: 28%;left: -10px;
+    padding-left: 5px;
+    z-index: 1;
+}
+nav img{
+    width: 63%;
+    height: 90%;
+}
+nav ul li,nav ul a li{
+    list-style-type: none;
+}
+.dropbtn, nav ul a li h3{
+    font-size: 14pt;
+    font-weight: bold;
+}
+dropbtn,nav ul a{
+    text-decoration: none;
+    color: teal;
+}
+nav ul a li:hover{
+    transform: scale(1.2,1.2);
+    color: cyan;    
+}
+nav ul a:hover{
+    text-decoration: none;
+}
+nav .active{
+    color: cyan;
+    padding-right: 5px;
+    border-right: solid cyan 6px;
+    height: 20px;
+}
+
+.dash{
+    position: fixed; top: 1%; left: 13%;
+}
+.home{
+    position: fixed; top: 5%; left: 13%;
+}
+button h3{
+    font-weight: bold;
+    font-size: 14pt;
+}
+.dropbtn{
+    border: none;
+    cursor: pointer;
+    background: none;
+    font-size: 14pt; font-weight: bold; font-family: calibri;
+    width: 70px;
+    height: 30px;
+}
+.dropcont{
+    display: none;
+}
+.dropdown:hover .dropcont{
+    display: block;
+    position: relative; left: 85px;top: -60px;
+    padding-right: 15px;
+    text-align: center;
+    width: 150px;
+}
+.anc,.medieval,.ren,.modern{
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 10px;
+}
+.medieval{
+    position: relative; left: 0px;top: 15px;
+}
+.ren{
+    position: relative; top: 20px;
+}
+.anc{
+    position: relative; top:10px; left: 0px;
+}
+.modern{
+    position: relative; top:25px; left: 0px;
+}
+dropdown button h3:hover{
+    transform: scale(1.2,1.2);
+    z-index: 2;
+}
+.time, .time button h3{
+    position: fixed; top: 50px; left: 160px;
+    color: goldenrod;
+    font-weight: bold;
+}
+.about{
+    position: fixed; top: 10%;  left: 13%;
+}
+.art{
+    position: fixed; top: 13%; left: 13%;
+}
+.ref{
+    position: fixed; top: 18%; left: 13%;
+}

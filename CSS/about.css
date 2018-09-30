@@ -1,0 +1,79 @@
+article{
+    padding: 15px;
+    font-size: 16pt;
+    background-color: rgba(255,255,255,0.8);
+}
+#videoElement {
+    width: 60%;
+    background-image: url("../pic/smile.png");
+    height: 250px;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+}
+article h1{
+    font-weight: normal;
+}
+article h3{
+    text-align: center;
+}
+article h1 b{
+    font-weight: bolder;
+    color: red;
+}
+article p{
+    text-indent: 30px;
+}
+article img{
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    padding-bottom: 50px;
+}
+article a{
+    color: cyan;
+    font-style: italic;
+}
+article .dev{
+    position: relative;
+    top: -335px;
+    left: 620px;
+    border-radius: 3px;
+    border: solid 1px;
+    font-size: 8pt;
+    width: 100px;
+    background-color: goldenrod;
+    color: wheat;
+    text-align: center;
+    cursor: pointer;
+}
+article .dev img{
+    display: none;
+}
+article .dev:hover .dev img{
+    display: block;
+    width: 200px;
+    position: relative; bottom: 10px;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+}
+article table{
+    width: 100%;
+}
+article table th, td{
+    text-align: center;
+}
+article table p{
+    position: relative; left: -20px;
+}
+article th{
+    padding-bottom: 30px;
+}
+article table tr td a img, article table tr td a    {
+    width: 50px;
+}
