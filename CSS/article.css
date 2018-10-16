@@ -27,12 +27,11 @@ article .cover{
     margin: auto;
     display: block;
     width: 96%;
-    padding-top: 80px;
+    padding-top: 10px;
 }
 article p, article h3{
-    padding-left: 15px;
+    padding-left: 10%;
     padding-right: 15px;
-    clear: left;
     text-indent: 50px;
 }
 article h3{

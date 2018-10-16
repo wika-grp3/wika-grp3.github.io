@@ -24,6 +24,9 @@ article h1 b{
     font-weight: bolder;
     color: red;
 }
+article h5{
+    text-align: center;
+}
 article p{
     text-indent: 30px;
 }
@@ -31,24 +34,13 @@ article img{
     margin: auto;
     display: block;
     max-width: 100%;
-    padding-bottom: 50px;
 }
 article a{
     color: cyan;
     font-style: italic;
 }
 article .dev{
-    position: relative;
-    top: -335px;
-    left: 620px;
-    border-radius: 3px;
-    border: solid 1px;
-    font-size: 8pt;
-    width: 100px;
-    background-color: goldenrod;
-    color: wheat;
-    text-align: center;
-    cursor: pointer;
+    width: 30%;
 }
 article .dev img{
     display: none;
@@ -57,6 +49,11 @@ article .dev:hover .dev img{
     display: block;
     width: 200px;
     position: relative; bottom: 10px;
+}
+article .akd{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 40px;
 }
 h1{
     text-align: center;

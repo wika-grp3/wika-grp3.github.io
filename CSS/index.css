@@ -19,19 +19,19 @@ div ul a li:hover{
     transform: scale(1.2,1.2);
 }
 #home{
-    position: absolute; top: 250px; left: 240px;
+    position: absolute; top: 250px; left: 15%;
 }
 #arts{
-    position: absolute; top: 250px; right: 245px;
+    position: absolute; top: 250px; right: 15%;
 }
 #abt{
-    position: absolute; top: 350px; left: 180px;
+    position: absolute; top: 350px; left: 9%;
 }
 #logs{
-    position: absolute; top: 350px; right: 175px;
+    position: absolute; top: 350px; right: 12%;
 }
 #you{
-    position: absolute; top: 450px; left: 190px;
+    position: absolute; top: 450px; left: 15%;
 }
 #ref{
     position: absolute; top: 450px; right: 240px;
