@@ -1,6 +1,6 @@
 article{
     font-size: 16pt;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.98);
     padding-bottom: 60px;
 }
 article a{
@@ -17,7 +17,7 @@ article .cover{
     float: left;
     position: relative; top: -180px;
     padding-left: 30px;
-    border-right: 60px solid goldenrod;
+    border-right: 60px solid teal;
 }
 .headl h1{
     font-weight: bolder;
@@ -30,9 +30,11 @@ article .cover{
     padding-top: 10px;
 }
 article p, article h3{
-    padding-left: 10%;
+    padding-left: 3%;
+    clear: left;
     padding-right: 15px;
     text-indent: 50px;
+    color: darkslategray;
 }
 article h3{
     font-weight: bold;
@@ -43,6 +45,9 @@ article .cptn{
     text-indent: 0pt;
     text-align: center;
     color: rgb(50,50,50);
+}
+article li{
+    margin-left: 30px;
 }
 article .cptn a{
     color: rgb(50,50,50);
